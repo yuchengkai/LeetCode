@@ -4,9 +4,9 @@ class ListNode:
 		self.val = x
 		self.next = None
 def genLinkedList(l):
-"""
-genLinkedList([integers]) -> linkedlist
-"""
+	"""
+	genLinkedList([integers]) -> linkedlist
+	"""
 	if l==[]:
 		return None
 	else:

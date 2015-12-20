@@ -1,12 +1,16 @@
-class Solution:
-    # @return a tuple, (index1, index2)
-    def twoSum(self, num, target):
+class Solution(object):
+    def twoSum(self, nums, target):
+        """
+        :type nums: List[int]
+        :type target: int
+        :rtype: List[int]
+        """
         map={}
-        l=len(num)
+        l=len(nums)
         for i in range(l):
-            map[num[i]]=i
+            map[nums[i]]=i
         for i in range(l):
-            j=target-num[i]
+            j=target-nums[i]
             if map.has_key(j):
                 if i!=map[j]:
                     if map[j]>i:
