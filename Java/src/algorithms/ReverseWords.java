@@ -1,5 +1,5 @@
 import java.lang.*;
-public class Solution {
+public class ReverseWords {
     public String reverseWords(String s) {
         String []str=s.split(" ");
         StringBuilder sb=new StringBuilder();
