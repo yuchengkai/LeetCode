@@ -1,6 +1,9 @@
 import java.util.Scanner;
 public class Main {
     public static void main(String[] argv){
+    	Object a="";
+    	System.out.println(a instanceof String);
+    	
         Scanner in=new Scanner(System.in);
         while(in.hasNextInt()){
             int n=in.nextInt();

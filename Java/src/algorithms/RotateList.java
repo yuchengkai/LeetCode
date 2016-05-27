@@ -1,4 +1,14 @@
-public class RotateRight {
+package algorithms;
+
+import leetcode.ListNode;
+
+public class RotateList {
+	
+	/**
+	 * get the length of the linked list.
+	 * move the pointer to the l-nth using two pointer.
+	 * swap and concatenate the two parts.
+	 * */
     public ListNode rotateRight(ListNode head, int k) {
         ListNode l1=head;
         int i=0;
