@@ -2,6 +2,9 @@ package algorithms;
 import java.util.Scanner;
 public class Main {
     public static void main(String[] argv){
+    	PascalsTriangleII p=new PascalsTriangleII();
+    	System.out.println(p.getRow(0));
+    	
     	Scanner in=new Scanner(System.in);
     	while(in.hasNextInt()){
     		int n=in.nextInt();
