@@ -1,6 +1,5 @@
 package algorithms;
 
-import leetcode.TreeNode;
 
 
 /**
